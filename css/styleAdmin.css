@@ -1,0 +1,100 @@
+body
+{
+	background-color: rgb(235,235,235);
+	font-family: Arial;
+	margin: 0px;
+}
+
+header {
+	padding: 10px;
+	background-color: rgb(20, 130, 250);
+	text-align: center;
+	color:white;
+}
+
+
+aside {
+	background-color: white;
+	float: left;
+	height:400px;
+	width: 15%;
+	text-align: center;
+	padding-top: 20px;
+	
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+#table {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+	background-color: white;
+}
+
+#ajouterSite {
+	text-align: center;
+	background-color: white;
+	margin-top:50px;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 15px;
+	font-weight: bold;
+	box-shadow: 0px 0px 15px rgb(100, 100, 100);
+	border-radius: 10px;
+
+}
+
+#formElement {
+	margin: 5px;
+	margin-top:10px;
+}
+
+input {
+	font-size: 25px;
+}
+
+
+a:visited
+{
+	color:blue;
+}
+
+#retour
+{
+	margin-top:40px;
+	margin-left:30px;
+	text-decoration:none;
+}
+
+
+footer {
+	margin-top: 30px;
+	height: 250px;
+	background-color: white;
+	text-align: center;
+	padding-top: 50px;
+	max-height: 80px;
+}
+
+
+
+
